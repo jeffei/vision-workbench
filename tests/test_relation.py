@@ -51,7 +51,7 @@ class RelationAPI(unittest.TestCase):
             data = response.json()
             self.assertEqual(data['relation_model'], model)
             self.assertEqual(data['model_id'], detector)
-            meta = json.loads((ROOT / 'vendor/RelateAnything-main/deploy/dist' / model / 'relateanything.json').read_text())
+            meta = json.loads((ROOT / 'vendor/relate-anything/deploy/dist' / model / 'relateanything.json').read_text())
             self.assertEqual(data['calibration'], meta['calibration'])
             self.assertGreater(len(data['relations']), 0)
 

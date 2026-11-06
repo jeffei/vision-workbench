@@ -11,7 +11,7 @@
 | `web/assets/` | 11 张用于页面演示及测试的典型图片 |
 | `web/vendor/` | JSZip 与许可证 |
 | `tests/` | 前端行为、后端单元测试及模型接口集成测试 |
-| `upstream/` | YOLOE 及其第三方依赖源码、配置、词表与许可证 |
+| `vendor/yoloe/` | YOLOE 及其第三方依赖源码、配置、词表与许可证 |
 | `vendor/` | RelateAnything、SAM、SAM 2 运行源码及许可证 |
 | `setup*.command` / `start.command` | 安装与本地启动 |
 

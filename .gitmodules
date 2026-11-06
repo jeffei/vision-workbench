@@ -5,8 +5,8 @@
 	path = vendor/segment-anything
 	url = https://github.com/facebookresearch/segment-anything.git
 [submodule "upstream"]
-	path = upstream
+	path = vendor/yoloe
 	url = https://github.com/THU-MIG/yoloe.git
 [submodule "vendor/RelateAnything-main"]
-	path = vendor/RelateAnything-main
+	path = vendor/relate-anything
 	url = https://github.com/Maelic/RelateAnything.git

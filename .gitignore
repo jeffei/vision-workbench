@@ -13,7 +13,7 @@ __pycache__/
 *.onnx
 *.onnx.data
 *.part
-/vendor/RelateAnything-main/deploy/dist/
+/vendor/relate-anything/deploy/dist/
 
 # Local inference results and workstation files
 /outputs/

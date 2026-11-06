@@ -56,7 +56,7 @@ def text_embeddings(detector, names):
 def prompt_free_model(model_id=DEFAULT_MODEL):
     """Official get_vocab/set_vocab path, with RAM-bounded text encoding."""
     import torch
-    names = (ROOT / 'upstream/tools/ram_tag_list.txt').read_text().splitlines()
+    names = (ROOT / 'vendor/yoloe/tools/ram_tag_list.txt').read_text().splitlines()
     cache = ROOT / 'models' / f'{model_id}-ram-embeddings.pt'
     base = new_model(model_id)
     if cache.exists():

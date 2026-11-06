@@ -1,6 +1,6 @@
--e ./upstream
--e ./upstream/third_party/CLIP
--e ./upstream/third_party/ml-mobileclip
+-e ./vendor/yoloe
+-e ./vendor/yoloe/third_party/CLIP
+-e ./vendor/yoloe/third_party/ml-mobileclip
 torch==2.2.2
 torchvision==0.17.2
 numpy==1.26.4

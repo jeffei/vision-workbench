@@ -4,10 +4,10 @@
 
 | 内容 | 来源与本地许可证 |
 | --- | --- |
-| YOLOE / Ultralytics | https://github.com/THU-MIG/yoloe；`upstream/LICENSE`，固定子模块提交 `40cd606cabdbe2b566d6f14a6b162c89206e9a1b` |
-| CLIP | `upstream/third_party/CLIP/LICENSE` |
-| MobileCLIP | `upstream/third_party/ml-mobileclip/LICENSE`、`LICENSE_weights_data` |
-| RelateAnything | https://github.com/Maelic/RelateAnything；`vendor/RelateAnything-main/LICENSE`、`NOTICE`、`THIRD_PARTY_NOTICES.md`；固定子模块提交 `fc626d0d58113efcc8b08252c168a7ad529a171f` |
+| YOLOE / Ultralytics | https://github.com/THU-MIG/yoloe；`vendor/yoloe/LICENSE`，固定子模块提交 `40cd606cabdbe2b566d6f14a6b162c89206e9a1b` |
+| CLIP | `vendor/yoloe/third_party/CLIP/LICENSE` |
+| MobileCLIP | `vendor/yoloe/third_party/ml-mobileclip/LICENSE`、`LICENSE_weights_data` |
+| RelateAnything | https://github.com/Maelic/RelateAnything；`vendor/relate-anything/LICENSE`、`NOTICE`、`THIRD_PARTY_NOTICES.md`；固定子模块提交 `fc626d0d58113efcc8b08252c168a7ad529a171f` |
 | Segment Anything | https://github.com/facebookresearch/segment-anything；提交 `dca509fe793f601edb92606367a655c15ac00fdf`；`vendor/segment-anything/LICENSE` |
 | SAM 2 | https://github.com/facebookresearch/sam2；提交 `2b90b9f5ceec907a1c18123530e92e794ad901a4`；`vendor/sam2/LICENSE` |
 | JSZip | `web/vendor/JSZip-LICENSE.md` |

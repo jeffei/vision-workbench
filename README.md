@@ -93,8 +93,8 @@ relation.py                RelSGG model management and relationship inference
 segment.py                 SAM / SAM 2 image segmentation
 web/                       Browser interface, exports, and example images
 tests/                     Frontend regression and Python tests
-upstream/                  YOLOE submodule, including its bundled dependencies
-vendor/RelateAnything-main/ RelateAnything submodule
+vendor/yoloe/              YOLOE submodule, including its bundled dependencies
+vendor/relate-anything/    RelateAnything submodule
 vendor/segment-anything/    SAM submodule
 vendor/sam2/                SAM 2 submodule
 setup*.command             Installation scripts
@@ -120,6 +120,12 @@ Integration tests require a running local server and prepared model weights. The
 ```
 
 Submodules are pinned for reproducibility. After pulling changes to this project, run `git submodule update --init --recursive`. Upgrade dependency commits deliberately and rerun validation; do not automatically follow upstream branch tips.
+
+If upgrading from the earlier `upstream/` layout, refresh the editable Python installations after updating the submodules:
+
+```sh
+uv pip install --python .venv/bin/python --no-deps --no-build-isolation -e ./vendor/yoloe -e ./vendor/yoloe/third_party/CLIP -e ./vendor/yoloe/third_party/ml-mobileclip
+```
 
 ## Acknowledgements and licensing
 

@@ -8,7 +8,7 @@ from pathlib import Path
 from fastapi import HTTPException
 
 ROOT = Path(__file__).resolve().parent
-DIST = ROOT / 'vendor/RelateAnything-main/deploy/dist'
+DIST = ROOT / 'vendor/relate-anything/deploy/dist'
 RELATION_MODELS = {
     'relsgg-vits16': 'ViT-S/16 · 46.1 M',
     'relsgg-vits16plus': 'ViT-S/16+ · 53.2 M',
@@ -58,7 +58,7 @@ def ensure_bundle(model_id):
 def infer_relations(image, detection, model_id, threshold):
     global head, active_model, progress
     import numpy as np
-    sys.path.insert(0, str(ROOT / 'vendor/RelateAnything-main'))
+    sys.path.insert(0, str(ROOT / 'vendor/relate-anything'))
     from deploy.runtime import OnnxRelationHead
     from deploy.postprocess import ThresholdConfig, decode
     if active_model != model_id:
