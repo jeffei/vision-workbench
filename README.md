@@ -14,7 +14,7 @@ Images are processed on the local machine. Model files are downloaded separately
 
 Detection exports include annotated PNG, JSON, and YOLO / COCO bounding-box datasets. Relationship exports include the image, selected relationship visualization, predictions, and review decisions. Segmentation exports include mask PNG, transparent cutout PNG, and JSON containing masks and prompts.
 
-Confidence controls filter cached detection or relationship candidates without rerunning inference. Segmentation supports a full-image mask overview and interactive region highlighting. The interface currently uses Chinese labels.
+Confidence controls filter cached detection or relationship candidates without rerunning inference. Segmentation supports a full-image mask overview and interactive region highlighting. Each workspace offers an enlarged, read-only snapshot of the current image and its result overlays. Use the “放大查看” button above the image; close with Escape, the close button, or the backdrop. The interface currently uses Chinese labels.
 
 ## Potential business applications
 
