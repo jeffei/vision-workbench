@@ -1,0 +1,12 @@
+[submodule "vendor/sam2"]
+	path = vendor/sam2
+	url = https://github.com/facebookresearch/sam2.git
+[submodule "vendor/segment-anything"]
+	path = vendor/segment-anything
+	url = https://github.com/facebookresearch/segment-anything.git
+[submodule "upstream"]
+	path = upstream
+	url = https://github.com/THU-MIG/yoloe.git
+[submodule "vendor/RelateAnything-main"]
+	path = vendor/RelateAnything-main
+	url = https://github.com/Maelic/RelateAnything.git

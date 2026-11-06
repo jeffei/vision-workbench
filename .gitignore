@@ -1,0 +1,26 @@
+# Local Python environment and generated metadata
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+/vendor/sam2-deps/
+
+# Downloaded model weights, vocabulary caches and partial downloads
+/models/
+*.pt
+*.pth
+*.onnx
+*.onnx.data
+*.part
+/vendor/RelateAnything-main/deploy/dist/
+
+# Local inference results and workstation files
+/outputs/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.key

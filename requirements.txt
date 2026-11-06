@@ -1,0 +1,12 @@
+-e ./upstream
+-e ./upstream/third_party/CLIP
+-e ./upstream/third_party/ml-mobileclip
+torch==2.2.2
+torchvision==0.17.2
+numpy==1.26.4
+opencv-python==4.11.0.86
+fastapi==0.119.1
+uvicorn==0.39.0
+python-multipart==0.0.20
+setuptools<81
+onnxruntime==1.19.2
